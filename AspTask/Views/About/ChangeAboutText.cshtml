@@ -1,0 +1,14 @@
+﻿@model About
+@{
+    ViewData["Title"] = "Change about text";
+}
+
+<form method="post">
+    <textarea asp-for="Text" style="width: 1200px;">
+        @ViewBag.AboutText
+    </textarea>
+
+    <br />
+
+    <button class="btn btn-success" type="submit">Update</button>
+</form>

@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.w-96 {
+    width: 24rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}

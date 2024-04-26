@@ -1,0 +1,10 @@
+<mat-card>
+    <span>Short Info:</span>
+    <div *ngIf="shortUrl">
+        <div>ID: {{ shortUrl.id }}</div>
+        <div>Created By: {{ shortUrl.createdBy }}</div>
+        <div>LongURL: {{ shortUrl.longUrl }}</div>
+        <div>ShortURL: {{ shortUrl.shortUrl }}</div>
+        <div>Created Date: {{ shortUrl.createdDate }}</div>
+    </div>
+</mat-card>

@@ -1,0 +1,16 @@
+<div class="flex justify-center mt-1">
+    <mat-card class="w-96 p-4" *ngIf="isLoggedIn">
+      <h4 class="text-xl">Add new URL</h4>
+      <form [formGroup]="urlForm">
+        <div>
+            <mat-form-field class="w-full">
+              <mat-label>Long URL</mat-label>
+              <input matInput type="text" formControlName="longUrl" />
+            </mat-form-field>
+        </div>
+        <div class="w-full flex justify-center">
+        <button mat-raised-button color="primary" (click)="addUrl()">Login</button>
+        </div>
+      </form>
+    </mat-card>
+</div>
